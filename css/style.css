@@ -1,12 +1,7 @@
 /**
  * =================================================================== 
  *
- *  ResumeTemplate v1.0 ClearCareer
- *  url: clearcareer.ca
- *  Design by: Iskender Piyale-Sheard
- *  website: izzydoesizzy.com
- *  Created 06-27-2016
- *  Last Updated: 03-19-2017
+ *  Design by: Sai Anirudh Basamsetty 
  *  ------------------------------------------------------------------
  *  Table of Contents:
 
@@ -83,7 +78,7 @@
  * =================================================================== */
 
  .section-image {
- 	background: #151515 url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=799&q=80) no-repeat center center;
+ 	background: #000000 /*url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?dpr=2&auto=compress,format&crop=entropy&fit=crop&w=1199&h=799&q=80)*/ no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -401,5 +396,50 @@ footer p {
     }
 
 }
+/*------------------------------Top Home Menu in First Page-------------*/
+div.scrollmenu {
+  background-color: #212f3d;
+  overflow: auto;
+  white-space: nowrap;
+}
 
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
 
+div.scrollmenu a:hover {
+  background-color: #76d7c4;
+}
+/*----------------------------------------------------------------------------*/
+/*---------------------------------Education dropdown----------------------*/
+
+ /* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 20px;
+  display: none;
+  overflow: hidden;
+  background-color: #111;
+} 
+/*-------------------------------------------------------------------------*/

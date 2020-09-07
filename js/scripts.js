@@ -1,8 +1,4 @@
-// ResumeTemplate v1.0 ClearCareer
-// url: clearcareer.ca
-// by: Iskender Piyale-Sheard
-// website: izzydoesizzy.com
-// Created 06-27-2016
+// by: Sai Anirudh Basamsetty 
  
 
 // Smooth Scroll Function
@@ -21,4 +17,19 @@ $(function() {
   });
 });
 
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+} 
 
